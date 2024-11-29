@@ -10,6 +10,9 @@
 # Vulnerability Write-Up Collector 
 This script gathers multiple write-ups about a specific vulnerability, offering insights into its discovery and exploitation. It helps enhance your understanding of penetration testing and security strategies through real-world examples and various exploitation techniques.
 
+![image](https://github.com/user-attachments/assets/842a3479-5c13-4f5c-aa6d-56cfddafade1)
+
+
 ## Requirements
 
 Before running the script, ensure that you have the following:
@@ -67,11 +70,17 @@ Before running the script, ensure that you have the following:
 
 ## Example
 
-```bash
 Enter the name of the vulnerability: XSS
+![image](https://github.com/user-attachments/assets/1f6b251c-508f-4311-a913-61e555ebc5b1)
+
 Enter the filename to save the results: xss_writeups.txt
 [SEARCHING...] Please wait while I gather the links...
-Process Completed! 10 results found and saved to xss_writeups.txt
-```
+Process Completed! 10 results found and saved to `xss_writeups.txt`
+![image](https://github.com/user-attachments/assets/9eca4e1d-25e0-4cb4-8899-5aef1f277108)
+
+In the `xss_writeups.txt` file, you will find links to write-ups about the vulnerability collected from various sources. You can open these links at any time and read them for more detailed information on the vulnerability and its exploitation.
+![image](https://github.com/user-attachments/assets/ad2e1aeb-8c4b-4036-9c9b-71a8c261e98d)
+
+
 
 
