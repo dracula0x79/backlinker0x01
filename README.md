@@ -3,61 +3,69 @@ This script gathers multiple write-ups about a specific vulnerability, offering 
 
 ![image](https://github.com/user-attachments/assets/842a3479-5c13-4f5c-aa6d-56cfddafade1)
 
+### Steps to Install the Tool on **Windows**
 
-## Requirements
+**Note**: This tool is designed to work on **Windows** systems. Please ensure you are using a Windows device before proceeding with the following steps.
 
-Before running the script, ensure that you have the following:
+### Prerequisites:
+1. **Python 3.x**: You need Python 3 installed on your machine. You can download Python from the official website: [python.org](https://www.python.org/downloads/).
+2. **Google Chrome**: Ensure that Google Chrome is installed on your machine.
+3. **ChromeDriver**: Selenium uses **ChromeDriver** to control Google Chrome, and the script will automatically download the appropriate version using `webdriver-manager`.
+4. **Selenium** and **webdriver-manager**: These libraries will be installed via `pip`.
 
-1. **Python 3.x** – The script is written in Python, so you need Python 3 installed.
-2. **Selenium** – A web scraping library to interact with web pages.
-   - Install with: 
-     ```bash
-     pip install selenium
-     ```
-3. **WebDriver Manager** – Used to automatically manage the ChromeDriver installation.
-   - Install with:
-     ```bash
-     pip install webdriver-manager
-     ```
-4. **Google Chrome** – The script uses Chrome for web scraping. Ensure that Google Chrome is installed on your system. You may need to update the `options.binary_location` in the script to point to your Chrome installation path:
-   - Default path for Windows: `C:\Program Files\Google\Chrome\Application\chrome.exe`
-   - On Linux, the `binary_location` is usually not required if Chrome is installed via the package manager.
-5. **ChromeDriver** – The WebDriver used by Selenium for automating Chrome. The script automatically installs the correct version using `webdriver-manager`.
+### Steps:
 
-## Usage
+#### 1. Install Python:
+- **Download Python**: If you don't have Python installed, download it from [python.org](https://www.python.org/downloads/).
+- **Verify Installation**:
+    - Open **Command Prompt**.
+    - Run the following command to check if Python is installed:
+      ```bash
+      python --version
+      ```
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/dracula0x79/backlinker0x01.git
-   cd backlinker0x01
-   ```
+#### 2. Install Dependencies:
+- Open **Command Prompt** and install **Selenium** and **webdriver-manager** by running the following commands:
 
-2. **Install the required dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+    ```bash
+    pip install selenium webdriver-manager
+    ```
 
-3. **Run the script:**
-   ```bash
-   python backlinker.py
-   ```
+    If you need to install any other libraries or if you want to update existing ones, you can use the `requirements.txt` file that includes all the necessary libraries for the script.
 
-4. The script will prompt you to:
-   - Enter the name of the vulnerability you want to search for.
-   - Enter the filename where you want to save the search results (optional, default is `results.txt`).
+#### 3. Clone the Repository:
+- Open **Command Prompt** and navigate to the directory where you want to clone the repository. Then run the following command:
+  
+    ```bash
+    git clone https://github.com/dracula0x79/backlinker0x01.git
+    ```
 
-   The script will search for write-ups related to the specified vulnerability and save the gathered links in the chosen file.
+    If you don’t have **git** installed, you can download and install it from [git-scm.com](https://git-scm.com/).
 
-## Features
+#### 4. Navigate to the Project Directory:
+After cloning the repository, navigate to the project folder:
 
-- **Headless Mode**: The script runs in headless mode (no GUI) for faster operation, especially useful for environments like WSL or Docker.
-- **Automated ChromeDriver Setup**: Uses `webdriver-manager` to automatically install and configure the ChromeDriver.
-- **Customizable Output**: Save the results to a custom filename or use the default `results.txt`.
+```bash
+cd backlinker0x01
+```
 
-## Compatibility
+#### 5. Run the Script:
+Now, you are ready to run the script. Open **Command Prompt** inside the project directory and run:
 
-- **Windows**: Fully compatible with Windows systems. Ensure Chrome is installed in the default location or update the path if needed.
-- **Linux**: Fully compatible with Linux systems. Make sure Google Chrome is installed, and the `binary_location` variable may not need to be set.
+```bash
+python backlinker.py
+```
+
+#### 6. Script Execution:
+- The script will prompt you for:
+  1. The name of the vulnerability you want to search for.
+  2. The filename to save the results (default is `results.txt`).
+  
+The script will then search for write-ups related to the vulnerability and save the links to the specified file.
+
+### Troubleshooting:
+- If you encounter the error: **"An error occurred: Message:"** it usually indicates a problem with the WebDriver or the Chrome installation. Ensure that **Google Chrome** is correctly installed and that **ChromeDriver** is compatible with the version of Chrome on your system.
+
 
 ## Example
 
