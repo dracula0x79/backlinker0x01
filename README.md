@@ -64,7 +64,7 @@ python backlinker.py
 The script will then search for write-ups related to the vulnerability and save the links to the specified file.
 
 ### Troubleshooting:
-- If you encounter the error: **"An error occurred: Message:"** it usually indicates a problem with the WebDriver or the Chrome installation. Ensure that **Google Chrome** is correctly installed and that **ChromeDriver** is compatible with the version of Chrome on your system.
+- If you encounter the error: **"An error occurred: Message"** it usually indicates a problem with the WebDriver or the Chrome installation. Ensure that **Google Chrome** is correctly installed and that **ChromeDriver** is compatible with the version of Chrome on your system.
 
 
 ## Example
