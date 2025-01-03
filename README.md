@@ -86,8 +86,8 @@ Enter the filename to save the results: xss_writeups.txt
 Process Completed! 10 results found and saved to `xss_writeups.txt`
 ![image](https://github.com/user-attachments/assets/9eca4e1d-25e0-4cb4-8899-5aef1f277108)
 
-In the `xss_writeups.txt` file, you will find links to write-ups about the vulnerability collected from various sources. You can open these links at any time and read them for more detailed information on the vulnerability and its exploitation.
-![image](https://github.com/user-attachments/assets/ad2e1aeb-8c4b-4036-9c9b-71a8c261e98d)
+In the `xss.pdf` file, you will find links to write-ups about the vulnerability collected from various sources. You can open these links at any time and read them for more detailed information on the vulnerability and its exploitation.
+![image](https://github.com/user-attachments/assets/e3ffe8a6-db50-4d8d-a94a-111cc0ecfef0)
 
 
 
