@@ -1,5 +1,5 @@
 # backlinker0x01                                                                                
-This script gathers multiple write-ups about a specific vulnerability, offering insights into its discovery and exploitation. It helps enhance your understanding of penetration testing and security strategies through real-world examples and various exploitation techniques.
+This script gathers multiple write-ups/reports about a specific vulnerability, offering insights into its discovery and exploitation. It helps enhance your understanding of penetration testing and security strategies through real-world examples and various exploitation techniques.
 
 ![image](https://github.com/user-attachments/assets/842a3479-5c13-4f5c-aa6d-56cfddafade1)
 
