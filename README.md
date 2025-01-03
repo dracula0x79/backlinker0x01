@@ -65,6 +65,8 @@ Now, you are ready to run the script. Open **Command Prompt** inside the project
 python backlinker.py
 ```
 
+⚠ Note: The tool might take some time to run initially because it needs to load the required libraries.
+
 #### 6. Script Execution:
 - The script will prompt you for:
   1. The name of the vulnerability you want to search for.
