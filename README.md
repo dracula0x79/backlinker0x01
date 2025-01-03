@@ -7,8 +7,6 @@ This script gathers multiple write-ups/reports about a specific vulnerability, o
 
 **Note**: This tool is designed to work on **Windows** systems. Please ensure you are using a Windows device before proceeding with the following steps.
 
-تم تعديل النص ليناسب التغييرات الجديدة، مع إضافة تعليمات استخدام ملف `requirements.txt` لتثبيت المتطلبات بشكل كامل:
-
 ---
 
 ### Prerequisites:
