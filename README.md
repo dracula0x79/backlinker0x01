@@ -70,7 +70,7 @@ python backlinker.py
 #### 6. Script Execution:
 - The script will prompt you for:
   1. The name of the vulnerability you want to search for.
-  2. The filename to save the results (default is `results.txt`).
+  2. The filename to save the results (default is `results.pdf`).
   
 The script will then search for write-ups related to the vulnerability and save the links to the specified file.
 
