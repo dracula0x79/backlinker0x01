@@ -78,13 +78,13 @@ The script will then search for write-ups related to the vulnerability and save 
 
 ## Example
 
-Enter the name of the vulnerability: XSS
+Enter the name of the vulnerability: xss
 ![image](https://github.com/user-attachments/assets/1f6b251c-508f-4311-a913-61e555ebc5b1)
 
-Enter the filename to save the results: xss_writeups.txt
+Enter the filename to save the results: xss.pdf
 [SEARCHING...] Please wait while I gather the links...
-Process Completed! 10 results found and saved to `xss_writeups.txt`
-![image](https://github.com/user-attachments/assets/9eca4e1d-25e0-4cb4-8899-5aef1f277108)
+Process Completed! 10 results found and saved to `xss.pdf`
+![image](https://github.com/user-attachments/assets/cc371f7e-4ffd-46e5-afda-0d2af97b22b6)
 
 In the `xss.pdf` file, you will find links to write-ups about the vulnerability collected from various sources. You can open these links at any time and read them for more detailed information on the vulnerability and its exploitation.
 ![image](https://github.com/user-attachments/assets/e3ffe8a6-db50-4d8d-a94a-111cc0ecfef0)
