@@ -7,44 +7,55 @@ This script gathers multiple write-ups/reports about a specific vulnerability, o
 
 **Note**: This tool is designed to work on **Windows** systems. Please ensure you are using a Windows device before proceeding with the following steps.
 
+تم تعديل النص ليناسب التغييرات الجديدة، مع إضافة تعليمات استخدام ملف `requirements.txt` لتثبيت المتطلبات بشكل كامل:
+
+---
+
 ### Prerequisites:
-1. **Python 3.x**: You need Python 3 installed on your machine. You can download Python from the official website: [python.org](https://www.python.org/downloads/).
-2. **Google Chrome**: Ensure that Google Chrome is installed on your machine.
-3. **ChromeDriver**: Selenium uses **ChromeDriver** to control Google Chrome, and the script will automatically download the appropriate version using `webdriver-manager`.
-4. **Selenium** and **webdriver-manager**: These libraries will be installed via `pip`.
+
+1. **Python 3.x**: You need Python 3 installed on your machine. You can download Python from the official website: [python.org](https://www.python.org/downloads/).  
+2. **Google Chrome**: Ensure that Google Chrome is installed on your machine.  
+3. **ChromeDriver**: Selenium uses **ChromeDriver** to control Google Chrome. The script will automatically download the appropriate version using `webdriver-manager`.  
+4. **Libraries**:  
+   - **Selenium** and **webdriver-manager**: Required for web automation tasks.  
+   - **fpdf**: Used for generating PDF files programmatically.  
+
+   These libraries are listed in the `requirements.txt` file and can be installed in one step.
+
+---
 
 ### Steps:
 
 #### 1. Install Python:
-- **Download Python**: If you don't have Python installed, download it from [python.org](https://www.python.org/downloads/).
+- **Download Python**: If you don't have Python installed, download it from [python.org](https://www.python.org/downloads/).  
 - **Verify Installation**:
-    - Open **Command Prompt**.
+    - Open **Command Prompt** or **Terminal**.
     - Run the following command to check if Python is installed:
       ```bash
       python --version
       ```
 
 #### 2. Install Dependencies:
-- Open **Command Prompt** and install **Selenium** and **webdriver-manager** by running the following commands:
-
+- Open **Command Prompt** or **Terminal**, navigate to the project directory, and install all required libraries using the `requirements.txt` file:
     ```bash
-    pip install selenium webdriver-manager
+    pip install -r requirements.txt
     ```
 
-    If you need to install any other libraries or if you want to update existing ones, you can use the `requirements.txt` file that includes all the necessary libraries for the script.
+    This command will automatically install:
+    - **Selenium**
+    - **webdriver-manager**
+    - **fpdf**
 
 #### 3. Clone the Repository:
-- Open **Command Prompt** and navigate to the directory where you want to clone the repository. Then run the following command:
-  
+- Open **Command Prompt** or **Terminal** and navigate to the directory where you want to clone the repository. Then run the following command:
     ```bash
     git clone https://github.com/dracula0x79/backlinker0x01.git
     ```
 
-    If you don’t have **git** installed, you can download and install it from [git-scm.com](https://git-scm.com/).
+    If you don’t have **Git** installed, download it from [git-scm.com](https://git-scm.com/).
 
 #### 4. Navigate to the Project Directory:
 After cloning the repository, navigate to the project folder:
-
 ```bash
 cd backlinker0x01
 ```
